@@ -4,7 +4,7 @@ import { Outlet } from "react-router";
 
 const MainLayout = () => {
   return (
-    <main className="bg-[#F0F5FF] w-full ">
+    <main className="bg-[#F0F5FF]">
       <Navbar />
       <div className="">
         <Outlet />
